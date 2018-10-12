@@ -24,7 +24,7 @@
     "url": "https://github.com/fusioncharts/fusionmaps-dist"
   },
   "author": "FusionCharts Technologies  <support@fusioncharts.com>",
-  "version": "3.13.1-sr.1",
+  "version": "3.13.2",
   "homepage": "http://www.fusioncharts.com/",
   "dependencies": {
     "core-js": "^2.5.6",
