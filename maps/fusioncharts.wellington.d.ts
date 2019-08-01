@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Wellington {}
 declare var Wellington: (H: FusionChartStatic) => FusionChartStatic;

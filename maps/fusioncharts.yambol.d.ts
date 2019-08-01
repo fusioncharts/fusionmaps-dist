@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Yambol {}
 declare var Yambol: (H: FusionChartStatic) => FusionChartStatic;

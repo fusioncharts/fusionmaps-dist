@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Haskovo {}
 declare var Haskovo: (H: FusionChartStatic) => FusionChartStatic;

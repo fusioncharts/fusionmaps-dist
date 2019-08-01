@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Hatomayor {}
 declare var Hatomayor: (H: FusionChartStatic) => FusionChartStatic;

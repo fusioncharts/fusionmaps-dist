@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Gorontalo {}
 declare var Gorontalo: (H: FusionChartStatic) => FusionChartStatic;

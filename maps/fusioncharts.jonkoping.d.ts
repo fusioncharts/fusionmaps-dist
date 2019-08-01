@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Jonkoping {}
 declare var Jonkoping: (H: FusionChartStatic) => FusionChartStatic;

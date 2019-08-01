@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Rondonia {}
 declare var Rondonia: (H: FusionChartStatic) => FusionChartStatic;

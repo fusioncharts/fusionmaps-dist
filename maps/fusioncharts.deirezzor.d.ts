@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Deirezzor {}
 declare var Deirezzor: (H: FusionChartStatic) => FusionChartStatic;

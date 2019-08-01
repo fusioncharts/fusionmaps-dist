@@ -1,4 +1,4 @@
-FusionMaps is a companion package meant to be used in conjunction with [FusionCharts](https://www.npmjs.com/package/fusioncharts) to render data-driven maps  (over 1,400+ maps for different continents, countries, states & regions). This package contains choropleth maps that can render on both desktop & mobile, with extended functionality like city or location markers, annotations, events etc.
+FusionMaps is a companion package meant to be used in conjunction with [FusionCharts](https://www.npmjs.com/package/fusioncharts) to render data-driven maps  (over 2,000+ maps for different continents, countries, states & regions). This package contains choropleth maps that can render on both desktop & mobile, with extended functionality like city or location markers, annotations, events etc.
 
 This package contains definition files for all the maps. Map definition files are the path files required by FusionMaps to plot a map for a particular region. Each map has its own path file.
 
@@ -13,12 +13,14 @@ _By default, FusionCharts package only includes definition files for two maps - 
 
 ---
 ### Table of Contents
--   [Installing FusionMaps](#installing-fusionmaps)
--   [Getting Started](#getting-started)
--   [Using FusionMaps as an ES Module](#using-fusionmaps-as-an-es-module)
--   [Related Packages](#related-packages)
--   [Contact Support](#contact-support)
--   [Folder Structure](#folder-structure)
+- [Installing FusionMaps](#installing-fusionmaps)
+- [Getting Started](#getting-started)
+- [Using FusionMaps as an ES Module](#using-fusionmaps-as-an-es-module)
+- [Related Packages](#related-packages)
+  - [Front-end Integrations to help you easily integrate FusionCharts Suite in your projects/apps](#front-end-integrations-to-help-you-easily-integrate-fusioncharts-suite-in-your-projectsapps)
+  - [Back-end Integrations to help you easily integrate FusionCharts Suite in your projects/apps](#back-end-integrations-to-help-you-easily-integrate-fusioncharts-suite-in-your-projectsapps)
+- [Contact Support](#contact-support)
+- [Folder Structure](#folder-structure)
 
 
 ## Installing FusionMaps

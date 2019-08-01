@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Sonora {}
 declare var Sonora: (H: FusionChartStatic) => FusionChartStatic;

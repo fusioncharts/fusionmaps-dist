@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Campeche {}
 declare var Campeche: (H: FusionChartStatic) => FusionChartStatic;

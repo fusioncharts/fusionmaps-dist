@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Jarvamaa {}
 declare var Jarvamaa: (H: FusionChartStatic) => FusionChartStatic;

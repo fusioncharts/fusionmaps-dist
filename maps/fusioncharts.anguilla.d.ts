@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Anguilla {}
 declare var Anguilla: (H: FusionChartStatic) => FusionChartStatic;

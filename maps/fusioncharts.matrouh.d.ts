@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Matrouh {}
 declare var Matrouh: (H: FusionChartStatic) => FusionChartStatic;

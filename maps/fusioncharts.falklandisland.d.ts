@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Falklandisland {}
 declare var Falklandisland: (H: FusionChartStatic) => FusionChartStatic;

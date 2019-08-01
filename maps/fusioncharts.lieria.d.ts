@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Lieria {}
 declare var Lieria: (H: FusionChartStatic) => FusionChartStatic;

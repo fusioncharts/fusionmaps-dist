@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Baniswaif {}
 declare var Baniswaif: (H: FusionChartStatic) => FusionChartStatic;

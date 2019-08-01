@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Amasya {}
 declare var Amasya: (H: FusionChartStatic) => FusionChartStatic;

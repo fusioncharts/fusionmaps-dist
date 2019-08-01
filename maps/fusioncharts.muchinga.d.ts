@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Muchinga {}
 declare var Muchinga: (H: FusionChartStatic) => FusionChartStatic;

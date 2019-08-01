@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Tuvalu {}
 declare var Tuvalu: (H: FusionChartStatic) => FusionChartStatic;

@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Guarda {}
 declare var Guarda: (H: FusionChartStatic) => FusionChartStatic;

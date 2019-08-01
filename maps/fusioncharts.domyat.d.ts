@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Domyat {}
 declare var Domyat: (H: FusionChartStatic) => FusionChartStatic;

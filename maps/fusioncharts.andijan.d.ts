@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Andijan {}
 declare var Andijan: (H: FusionChartStatic) => FusionChartStatic;
