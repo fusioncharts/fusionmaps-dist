@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Lovech {}
 declare var Lovech: (H: FusionChartStatic) => FusionChartStatic;

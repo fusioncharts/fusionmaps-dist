@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Kagawa {}
 declare var Kagawa: (H: FusionChartStatic) => FusionChartStatic;

@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Duarte {}
 declare var Duarte: (H: FusionChartStatic) => FusionChartStatic;

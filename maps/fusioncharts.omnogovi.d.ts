@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Omnogovi {}
 declare var Omnogovi: (H: FusionChartStatic) => FusionChartStatic;

@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Newtaipeicity {}
 declare var Newtaipeicity: (H: FusionChartStatic) => FusionChartStatic;

@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Lapaz {}
 declare var Lapaz: (H: FusionChartStatic) => FusionChartStatic;

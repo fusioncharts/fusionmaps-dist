@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Nara {}
 declare var Nara: (H: FusionChartStatic) => FusionChartStatic;

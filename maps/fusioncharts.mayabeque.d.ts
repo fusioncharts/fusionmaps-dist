@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Mayabeque {}
 declare var Mayabeque: (H: FusionChartStatic) => FusionChartStatic;

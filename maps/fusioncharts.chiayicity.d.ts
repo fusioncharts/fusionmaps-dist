@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Chiayicity {}
 declare var Chiayicity: (H: FusionChartStatic) => FusionChartStatic;

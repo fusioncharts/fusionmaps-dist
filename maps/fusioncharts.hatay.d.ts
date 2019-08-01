@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Hatay {}
 declare var Hatay: (H: FusionChartStatic) => FusionChartStatic;

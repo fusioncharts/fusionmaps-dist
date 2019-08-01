@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Yautsimmong {}
 declare var Yautsimmong: (H: FusionChartStatic) => FusionChartStatic;

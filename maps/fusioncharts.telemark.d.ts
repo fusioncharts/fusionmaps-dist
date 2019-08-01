@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Telemark {}
 declare var Telemark: (H: FusionChartStatic) => FusionChartStatic;

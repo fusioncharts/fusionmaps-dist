@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Westjava {}
 declare var Westjava: (H: FusionChartStatic) => FusionChartStatic;

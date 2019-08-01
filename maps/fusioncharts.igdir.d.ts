@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Igdir {}
 declare var Igdir: (H: FusionChartStatic) => FusionChartStatic;

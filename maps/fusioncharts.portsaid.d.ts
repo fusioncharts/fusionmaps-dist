@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Portsaid {}
 declare var Portsaid: (H: FusionChartStatic) => FusionChartStatic;

@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Specialregionofaceh {}
 declare var Specialregionofaceh: (H: FusionChartStatic) => FusionChartStatic;

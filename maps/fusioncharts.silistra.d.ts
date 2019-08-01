@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Silistra {}
 declare var Silistra: (H: FusionChartStatic) => FusionChartStatic;

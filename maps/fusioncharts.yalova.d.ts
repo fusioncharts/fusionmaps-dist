@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Yalova {}
 declare var Yalova: (H: FusionChartStatic) => FusionChartStatic;

@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Qina {}
 declare var Qina: (H: FusionChartStatic) => FusionChartStatic;

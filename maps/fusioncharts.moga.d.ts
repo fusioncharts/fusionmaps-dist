@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Moga {}
 declare var Moga: (H: FusionChartStatic) => FusionChartStatic;

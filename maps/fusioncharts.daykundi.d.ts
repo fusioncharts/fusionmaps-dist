@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Daykundi {}
 declare var Daykundi: (H: FusionChartStatic) => FusionChartStatic;

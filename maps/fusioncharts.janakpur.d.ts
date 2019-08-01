@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Janakpur {}
 declare var Janakpur: (H: FusionChartStatic) => FusionChartStatic;

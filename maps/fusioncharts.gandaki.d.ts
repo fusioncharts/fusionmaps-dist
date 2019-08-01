@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Gandaki {}
 declare var Gandaki: (H: FusionChartStatic) => FusionChartStatic;

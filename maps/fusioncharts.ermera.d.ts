@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Ermera {}
 declare var Ermera: (H: FusionChartStatic) => FusionChartStatic;

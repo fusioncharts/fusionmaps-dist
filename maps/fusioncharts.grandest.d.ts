@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Grandest {}
 declare var Grandest: (H: FusionChartStatic) => FusionChartStatic;

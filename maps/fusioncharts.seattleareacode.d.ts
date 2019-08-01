@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Seattleareacode {}
 declare var Seattleareacode: (H: FusionChartStatic) => FusionChartStatic;

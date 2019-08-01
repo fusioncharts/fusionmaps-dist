@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Saaremaa {}
 declare var Saaremaa: (H: FusionChartStatic) => FusionChartStatic;

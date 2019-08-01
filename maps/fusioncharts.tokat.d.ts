@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Tokat {}
 declare var Tokat: (H: FusionChartStatic) => FusionChartStatic;
