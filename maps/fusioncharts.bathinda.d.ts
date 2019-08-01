@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Bathinda {}
 declare var Bathinda: (H: FusionChartStatic) => FusionChartStatic;

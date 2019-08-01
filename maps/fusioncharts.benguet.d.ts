@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Benguet {}
 declare var Benguet: (H: FusionChartStatic) => FusionChartStatic;

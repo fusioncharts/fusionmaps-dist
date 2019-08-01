@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Vorumaa {}
 declare var Vorumaa: (H: FusionChartStatic) => FusionChartStatic;

@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Patiala {}
 declare var Patiala: (H: FusionChartStatic) => FusionChartStatic;

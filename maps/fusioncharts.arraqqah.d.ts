@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Arraqqah {}
 declare var Arraqqah: (H: FusionChartStatic) => FusionChartStatic;

@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Tarlac {}
 declare var Tarlac: (H: FusionChartStatic) => FusionChartStatic;

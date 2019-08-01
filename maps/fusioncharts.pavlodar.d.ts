@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Pavlodar {}
 declare var Pavlodar: (H: FusionChartStatic) => FusionChartStatic;

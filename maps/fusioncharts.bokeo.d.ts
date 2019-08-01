@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Bokeo {}
 declare var Bokeo: (H: FusionChartStatic) => FusionChartStatic;

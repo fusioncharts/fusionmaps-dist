@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Tashkentcity {}
 declare var Tashkentcity: (H: FusionChartStatic) => FusionChartStatic;

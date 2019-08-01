@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Koshi {}
 declare var Koshi: (H: FusionChartStatic) => FusionChartStatic;

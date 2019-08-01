@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Covalima {}
 declare var Covalima: (H: FusionChartStatic) => FusionChartStatic;

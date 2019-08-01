@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Tochigi {}
 declare var Tochigi: (H: FusionChartStatic) => FusionChartStatic;

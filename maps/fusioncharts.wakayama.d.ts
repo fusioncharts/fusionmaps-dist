@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Wakayama {}
 declare var Wakayama: (H: FusionChartStatic) => FusionChartStatic;

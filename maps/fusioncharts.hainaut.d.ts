@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Hainaut {}
 declare var Hainaut: (H: FusionChartStatic) => FusionChartStatic;

@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Kyzylorda {}
 declare var Kyzylorda: (H: FusionChartStatic) => FusionChartStatic;

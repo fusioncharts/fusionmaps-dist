@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Liquica {}
 declare var Liquica: (H: FusionChartStatic) => FusionChartStatic;

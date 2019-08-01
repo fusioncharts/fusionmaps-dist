@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Tottori {}
 declare var Tottori: (H: FusionChartStatic) => FusionChartStatic;

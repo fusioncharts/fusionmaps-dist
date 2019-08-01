@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Kalinga {}
 declare var Kalinga: (H: FusionChartStatic) => FusionChartStatic;

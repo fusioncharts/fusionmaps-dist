@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Ostfold {}
 declare var Ostfold: (H: FusionChartStatic) => FusionChartStatic;

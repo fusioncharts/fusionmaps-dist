@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Sorsogon {}
 declare var Sorsogon: (H: FusionChartStatic) => FusionChartStatic;

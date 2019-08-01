@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Sortrondelag {}
 declare var Sortrondelag: (H: FusionChartStatic) => FusionChartStatic;

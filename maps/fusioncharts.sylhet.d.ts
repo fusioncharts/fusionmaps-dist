@@ -1,5 +1,5 @@
 
-import { FusionChartStatic } from "fusioncharts";
+import { FusionChartStatic } from 'fusioncharts';
 
 declare namespace Sylhet {}
 declare var Sylhet: (H: FusionChartStatic) => FusionChartStatic;
