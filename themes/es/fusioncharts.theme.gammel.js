@@ -1,5 +1,5 @@
 /*
- Gammel Theme v0.3
+ Gammel Theme v0.4
  FusionCharts JavaScript Library
 
  Copyright FusionCharts Technologies LLP
@@ -1687,6 +1687,141 @@ var themeObject = {
       }
     },
 
+    // 95 Overlapped Bar2D Chart
+    overlappedbar2d: {
+      chart: {
+        yAxisValuesPadding: "10",
+        showValues: "0",
+        drawCrossLine: "1"
+      }
+    },
+
+    // 96 Overlapped Column2D Chart
+    overlappedcolumn2d: {
+      chart: {
+        showValues: "0",
+        drawCrossLine: "1"
+      }
+    },
+
+    // 97 Scroll Bar2D Chart
+    scrollbar2d: {
+      chart: {
+        showLegend: "1",
+        showShadow: "0",
+        adjustDiv: "1",
+        flatScrollBars: "1",
+        scrollShowButtons: "1",
+        scrollHeight: "15",
+        scrollColor: "#F3F3F3"
+      }
+    },
+
+    // 98 Scroll Stacked Bar2D
+    scrollstackedbar2d: {
+      chart: {
+        showValues: "0",
+        showSum: "1",
+        showLegend: "1",
+        showShadow: "0",
+        adjustDiv: "1",
+        flatScrollBars: "1",
+        scrollShowButtons: "1",
+        scrollHeight: "15",
+        scrollColor: "#F3F3F3"
+      }
+    },
+
+    // 99 Scroll Multi-series Stacked Column2D
+    scrollmsstackedcolumn2d: {
+      chart: {
+        showShadow: "0",
+        drawAnchors: "1",
+        anchorRadius: "4",
+        anchorHoverRadius: "6",
+        showValues: "0",
+        anchorBorderHoverColor: "#D8D8D8",
+        anchorHoverEffect: "1",
+        anchorBgHoverAlpha: "95",
+        anchorBorderHoverThickness: "2",
+        drawCrossLine: "1",
+        legendIconBorderThickness: "1",
+        adjustDiv: "1",
+        flatScrollBars: "1",
+        scrollShowButtons: "1",
+        scrollHeight: "15",
+        scrollColor: "#F3F3F3"
+      }
+    },
+
+    // 100 Scroll Multi-series Stacked Column2D + Line Dual Y-Axis Chart
+    scrollmsstackedcolumn2dlinedy: {
+      chart: {
+        drawAnchors: "1",
+        anchorRadius: "4",
+        anchorHoverRadius: "6",
+        showValues: "0",
+        anchorBorderHoverColor: "#D8D8D8",
+        anchorHoverEffect: "1",
+        anchorBgHoverAlpha: "95",
+        anchorBorderHoverThickness: "2",
+        drawCrossLine: "1",
+        legendIconBorderThickness: "1",
+        flatScrollBars: "1",
+        scrollShowButtons: "1",
+        scrollHeight: "15",
+        scrollColor: "#F3F3F3"
+      }
+    },
+
+    // 101 Stacked Column2D + Line Dual Y-Axis Chart
+    stackedcolumn2dlinedy: {
+      chart: {
+        drawAnchors: "1",
+        anchorRadius: "4",
+        anchorHoverRadius: "6",
+        showValues: "0",
+        anchorBorderHoverColor: "#D8D8D8",
+        anchorHoverEffect: "1",
+        anchorBgHoverAlpha: "95",
+        anchorBorderHoverThickness: "2",
+        drawCrossLine: "1",
+        legendIconBorderThickness: "1"
+      }
+    },
+
+    // 102 Stacked Area2D + Line Dual Y-Axis Chart
+    stackedarea2dlinedy: {
+      chart: {
+        drawAnchors: "1",
+        anchorRadius: "4",
+        anchorHoverRadius: "6",
+        showValues: "0",
+        anchorBorderHoverColor: "#D8D8D8",
+        anchorHoverEffect: "1",
+        anchorBgHoverAlpha: "95",
+        anchorBorderHoverThickness: "2",
+        drawCrossLine: "1",
+        legendIconBorderThickness: "1",
+        plotFillAlpha: "70"
+      }
+    },
+
+    // 103 Multi-series 3D Single Y Combination Chart
+    mscombidy3d: {
+      chart: {
+        drawAnchors: "1",
+        anchorRadius: "4",
+        anchorHoverRadius: "6",
+        showValues: "0",
+        anchorBorderHoverColor: "#D8D8D8",
+        anchorHoverEffect: "1",
+        anchorBgHoverAlpha: "95",
+        anchorBorderHoverThickness: "2",
+        legendIconBorderThickness: "1"
+      }
+    },
+
     // timeseries
     timeseries: {
       // caption styling
@@ -1823,7 +1958,7 @@ var themeObject = {
               fill: "#F7F7F7"
             },
             "button-background:hover": {
-                fill: "#F7F7F7"
+              fill: "#F7F7F7"
             },
             "button-background:active": {
               fill: "#EBEBF5"
@@ -2065,8 +2200,8 @@ var themeObject = {
 
 var index = {
   extension: themeObject,
-  name: 'gammelTheme',
-  type: 'theme'
+  name: "gammelTheme",
+  type: "theme"
 };
 
 export default index;

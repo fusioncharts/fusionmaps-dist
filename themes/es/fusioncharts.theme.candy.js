@@ -29,7 +29,7 @@ var css = "@font-face {\n  font-family: \"Fira Sans Light\";\n  font-style: norm
 styleInject(css);
 
 /*
- Candy Theme v0.3
+ Candy Theme v0.4
  FusionCharts JavaScript Library
 
  Copyright FusionCharts Technologies LLP
@@ -1967,7 +1967,120 @@ var themeObject = {
       }
     },
 
-    // 97. timeseries
+    // 97. Scroll Bar2D Chart
+    scrollbar2d: {
+      chart: {
+        drawCrossLine: "1",
+        showLegend: "1",
+        legendIconSides: "4",
+        flatScrollBars: "1",
+        scrollShowButtons: "0",
+        scrollColor: "#ABABAB",
+        scrollWidth: "10"
+      }
+    },
+
+    // 98. Scroll Stacked Bar2D Chart
+    scrollstackedbar2d: {
+      chart: {
+        showLegend: "1",
+        legendIconSides: "4",
+        drawCrossLine: "1",
+        flatScrollBars: "1",
+        scrollShowButtons: "0",
+        scrollColor: "#ABABAB",
+        scrollWidth: "10"
+      }
+    },
+
+    // 99. Scroll Multi-series Stacked Column2D Chart
+    scrollmsstackedcolumn2d: {
+      chart: {
+        showLegend: "1",
+        legendIconSides: "4",
+        flatScrollBars: "1",
+        scrollShowButtons: "0",
+        scrollColor: "#ABABAB",
+        scrollheight: "10"
+      }
+    },
+
+    // 100. Scroll Multi-series Stacked Column2D + Line Dual Y-Axis
+    scrollmsstackedcolumn2dlinedy: {
+      chart: {
+        lineThickness: "3",
+        showLegend: "1",
+        drawCrossLine: "1",
+        drawAnchors: "1",
+        legendIconBorderThickness: "2",
+        anchorBgColor: "#262A33",
+        anchorRadius: "4",
+        anchorHoverRadius: "7",
+        anchorBorderHoverThickness: "1",
+        anchorBorderHoverColor: "#ECEBE4",
+        anchorBgHoverAlpha: "100",
+        flatScrollBars: "1",
+        scrollShowButtons: "0",
+        scrollColor: "#ABABAB",
+        scrollheight: "10"
+      }
+    },
+
+    // 101. Stacked Column2D + Line Dual Y-Axis Chart
+    stackedcolumn2dlinedy: {
+      chart: {
+        lineThickness: "3",
+        showLegend: "1",
+        drawCrossLine: "1",
+        drawAnchors: "1",
+        legendIconBorderThickness: "2",
+        anchorBgColor: "#262A33",
+        anchorRadius: "4",
+        anchorHoverRadius: "7",
+        anchorBorderHoverThickness: "1",
+        anchorBorderHoverColor: "#ECEBE4",
+        anchorBgHoverAlpha: "100"
+      }
+    },
+
+    // 102. Stacked Area2D + Line Dual Y-Axis Chart
+    stackedarea2dlinedy: {
+      chart: {
+        showLegend: "1",
+        legendIconSides: "4",
+        plotFillAlpha: "85",
+        drawCrossLine: "1",
+        lineThickness: "3",
+        drawAnchors: "1",
+        legendIconBorderThickness: "2",
+        anchorBgColor: "#262A33",
+        anchorRadius: "4",
+        anchorHoverRadius: "7",
+        anchorBorderHoverThickness: "1",
+        anchorBorderHoverColor: "#ECEBE4",
+        anchorBgHoverAlpha: "100"
+      }
+    },
+
+    // 103. Multi-series 3D Single Y Combination Chart
+    mscombidy3d: {
+      chart: {
+        lineThickness: "3",
+        showLegend: "1",
+        drawAnchors: "1",
+        legendIconBorderThickness: "2",
+        anchorBgColor: "#262A33",
+        anchorRadius: "4",
+        anchorHoverRadius: "7",
+        anchorBorderHoverThickness: "1",
+        anchorBorderHoverColor: "#ECEBE4",
+        anchorBgHoverAlpha: "100",
+        canvasBaseDepth: "2",
+        canvasBaseColor: "#4D5058"
+      }
+    },
+
+    // timeseries
     timeseries: {
       // caption styling
       caption: {
@@ -2322,8 +2435,8 @@ var themeObject = {
 
 var index = {
   extension: themeObject,
-  name: 'candyTheme',
-  type: 'theme'
+  name: "candyTheme",
+  type: "theme"
 };
 
 export default index;

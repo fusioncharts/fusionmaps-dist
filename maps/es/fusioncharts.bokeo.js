@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.Bokeo.1.08-09-2016 04:23:00
+ * @id fusionmaps.Bokeo.1.06-19-2019 08:58:30
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,10 +21,12 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "Bokeo",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 500,
   "baseHeight": 477,
   "baseScaleFactor": 10,
+  "firstEntity": "LA.BK.HO",
   "entities": {
     "LA.BK.HO": {
       "outlines": [
@@ -33,7 +35,8 @@ let M = 'M', // SVG MoveTo
       "label": "Houaixai District",
       "shortLabel": "HO",
       "labelPosition": [249, 194],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.BK.TO"
     },
     "LA.BK.TO": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "Tonpheung District",
       "shortLabel": "TO",
       "labelPosition": [72, 167.3],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.BK.ME"
     },
     "LA.BK.ME": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Meung District",
       "shortLabel": "ME",
       "labelPosition": [187.5, 70.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.BK.PH"
     },
     "LA.BK.PH": {
       "outlines": [
@@ -60,7 +65,8 @@ let M = 'M', // SVG MoveTo
       "label": "Pha Oudom District",
       "shortLabel": "PH",
       "labelPosition": [343.5, 288.5],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.BK.PA"
     },
     "LA.BK.PA": {
       "outlines": [

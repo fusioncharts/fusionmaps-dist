@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.Salavan.1.08-09-2016 04:23:01
+ * @id fusionmaps.Salavan.1.06-19-2019 10:59:11
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,10 +21,12 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "Salavan",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 650,
   "baseHeight": 480,
   "baseScaleFactor": 10,
+  "firstEntity": "LA.SL.SV",
   "entities": {
     "LA.SL.SV": {
       "outlines": [
@@ -33,7 +35,8 @@ let M = 'M', // SVG MoveTo
       "label": "Saravane District",
       "shortLabel": "SV",
       "labelPosition": [343.5, 310.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SL.TA"
     },
     "LA.SL.TA": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "Ta Oy District",
       "shortLabel": "TA",
       "labelPosition": [492.9, 155.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SL.TO"
     },
     "LA.SL.TO": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Toomlarn District",
       "shortLabel": "TO",
       "labelPosition": [313.2, 199.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SL.LK"
     },
     "LA.SL.LK": {
       "outlines": [
@@ -60,7 +65,8 @@ let M = 'M', // SVG MoveTo
       "label": "Lakhonepheng District",
       "shortLabel": "LK",
       "labelPosition": [92.9, 268.5],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SL.VA"
     },
     "LA.SL.VA": {
       "outlines": [
@@ -69,7 +75,8 @@ let M = 'M', // SVG MoveTo
       "label": "Vapy District",
       "shortLabel": "VA",
       "labelPosition": [216.6, 294.8],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SL.KH"
     },
     "LA.SL.KH": {
       "outlines": [
@@ -78,7 +85,8 @@ let M = 'M', // SVG MoveTo
       "label": "Khongsedone District",
       "shortLabel": "KH",
       "labelPosition": [149.8, 373.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SL.LN"
     },
     "LA.SL.LN": {
       "outlines": [
@@ -87,7 +95,8 @@ let M = 'M', // SVG MoveTo
       "label": "Lao Ngarm District",
       "shortLabel": "LN",
       "labelPosition": [289.6, 396.5],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SL.SM"
     },
     "LA.SL.SM": {
       "outlines": [
