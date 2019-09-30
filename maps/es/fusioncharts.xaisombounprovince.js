@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.XaisombounProvince.1.08-09-2016 04:23:01
+ * @id fusionmaps.XaisombounProvince.1.06-19-2019 10:59:11
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,10 +21,12 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "XaisombounProvince",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 500,
   "baseHeight": 318,
   "baseScaleFactor": 10,
+  "firstEntity": "LA.XS.AN",
   "entities": {
     "LA.XS.AN": {
       "outlines": [
@@ -33,7 +35,8 @@ let M = 'M', // SVG MoveTo
       "label": "Anouvong District",
       "shortLabel": "AN",
       "labelPosition": [187.1, 170.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XS.LO"
     },
     "LA.XS.LO": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "Longchaeng District",
       "shortLabel": "LO",
       "labelPosition": [98, 72.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XS.LX"
     },
     "LA.XS.LX": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Longxan District",
       "shortLabel": "LX",
       "labelPosition": [129.4, 262.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XS.HO"
     },
     "LA.XS.HO": {
       "outlines": [
@@ -60,7 +65,8 @@ let M = 'M', // SVG MoveTo
       "label": "Hom District",
       "shortLabel": "HO",
       "labelPosition": [275.4, 236.8],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XS.TH"
     },
     "LA.XS.TH": {
       "outlines": [

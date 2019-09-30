@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.Oudomxay.1.08-09-2016 04:23:01
+ * @id fusionmaps.Oudomxay.1.06-19-2019 10:37:58
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,10 +21,12 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "Oudomxay",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 600,
   "baseHeight": 541,
   "baseScaleFactor": 10,
+  "firstEntity": "LA.OU.XA",
   "entities": {
     "LA.OU.XA": {
       "outlines": [
@@ -33,7 +35,8 @@ let M = 'M', // SVG MoveTo
       "label": "Xay District",
       "shortLabel": "XA",
       "labelPosition": [433.5, 201.7],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.OU.LA"
     },
     "LA.OU.LA": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "La District",
       "shortLabel": "LA",
       "labelPosition": [498.4, 112.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.OU.NA"
     },
     "LA.OU.NA": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Namo District",
       "shortLabel": "NA",
       "labelPosition": [369.5, 116.1],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.OU.NG"
     },
     "LA.OU.NG": {
       "outlines": [
@@ -60,7 +65,8 @@ let M = 'M', // SVG MoveTo
       "label": "Nga District",
       "shortLabel": "NG",
       "labelPosition": [463.3, 383.4],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.OU.BE"
     },
     "LA.OU.BE": {
       "outlines": [
@@ -69,7 +75,8 @@ let M = 'M', // SVG MoveTo
       "label": "Beng District",
       "shortLabel": "BE",
       "labelPosition": [365.6, 331.3],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.OU.HO"
     },
     "LA.OU.HO": {
       "outlines": [
@@ -78,7 +85,8 @@ let M = 'M', // SVG MoveTo
       "label": "Houne District",
       "shortLabel": "HO",
       "labelPosition": [258.8, 432.4],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.OU.PA"
     },
     "LA.OU.PA": {
       "outlines": [

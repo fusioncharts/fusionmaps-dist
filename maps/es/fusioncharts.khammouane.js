@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.Khammouane.1.08-09-2016 04:23:01
+ * @id fusionmaps.Khammouane.1.06-19-2019 10:37:58
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,10 +21,12 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "Khammouane",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 600,
   "baseHeight": 396,
   "baseScaleFactor": 10,
+  "firstEntity": "LA.KH.TH",
   "entities": {
     "LA.KH.TH": {
       "outlines": [
@@ -33,7 +35,8 @@ let M = 'M', // SVG MoveTo
       "label": "Thakhek District",
       "shortLabel": "TH",
       "labelPosition": [172.9, 255.8],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.KH.MA"
     },
     "LA.KH.MA": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "Mahaxay District",
       "shortLabel": "MA",
       "labelPosition": [281.1, 269],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.KH.NO"
     },
     "LA.KH.NO": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Nongbouk District",
       "shortLabel": "NO",
       "labelPosition": [152, 348.4],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.KH.HI"
     },
     "LA.KH.HI": {
       "outlines": [
@@ -60,7 +65,8 @@ let M = 'M', // SVG MoveTo
       "label": "Hinboun District",
       "shortLabel": "HI",
       "labelPosition": [88.8, 112.3],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.KH.NH"
     },
     "LA.KH.NH": {
       "outlines": [
@@ -69,7 +75,8 @@ let M = 'M', // SVG MoveTo
       "label": "Nhommalath District",
       "shortLabel": "NH",
       "labelPosition": [280.1, 204.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.KH.BU"
     },
     "LA.KH.BU": {
       "outlines": [
@@ -78,7 +85,8 @@ let M = 'M', // SVG MoveTo
       "label": "Boulapha District",
       "shortLabel": "BU",
       "labelPosition": [453.7, 268],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.KH.NA"
     },
     "LA.KH.NA": {
       "outlines": [
@@ -87,7 +95,8 @@ let M = 'M', // SVG MoveTo
       "label": "Nakai District",
       "shortLabel": "NA",
       "labelPosition": [280.8, 121.1],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.KH.XE"
     },
     "LA.KH.XE": {
       "outlines": [
@@ -96,7 +105,8 @@ let M = 'M', // SVG MoveTo
       "label": "Xebangfay District",
       "shortLabel": "XE",
       "labelPosition": [239.7, 314.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.KH.XA"
     },
     "LA.KH.XA": {
       "outlines": [

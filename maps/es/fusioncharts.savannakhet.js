@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.Savannakhet.1.08-09-2016 04:23:01
+ * @id fusionmaps.Savannakhet.1.06-19-2019 11:21:23
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,10 +21,12 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "Savannakhet",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 700,
   "baseHeight": 453,
   "baseScaleFactor": 10,
+  "firstEntity": "LA.SV.KH",
   "entities": {
     "LA.SV.KH": {
       "outlines": [
@@ -33,7 +35,8 @@ let M = 'M', // SVG MoveTo
       "label": "Kaysone Phomvihane",
       "shortLabel": "KH",
       "labelPosition": [42.3, 192.8],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SV.OU"
     },
     "LA.SV.OU": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "Outhoumphone",
       "shortLabel": "OU",
       "labelPosition": [111.5, 129.4],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SV.AT"
     },
     "LA.SV.AT": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Atsaphangthong",
       "shortLabel": "AT",
       "labelPosition": [211.2, 154.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SV.PH"
     },
     "LA.SV.PH": {
       "outlines": [
@@ -60,7 +65,8 @@ let M = 'M', // SVG MoveTo
       "label": "Phine",
       "shortLabel": "PH",
       "labelPosition": [446, 251.1],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SV.SE"
     },
     "LA.SV.SE": {
       "outlines": [
@@ -69,7 +75,8 @@ let M = 'M', // SVG MoveTo
       "label": "Sepone",
       "shortLabel": "SE",
       "labelPosition": [543.4, 129.1],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SV.NO"
     },
     "LA.SV.NO": {
       "outlines": [
@@ -78,7 +85,8 @@ let M = 'M', // SVG MoveTo
       "label": "Nong",
       "shortLabel": "NO",
       "labelPosition": [600.9, 273.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SV.TT"
     },
     "LA.SV.TT": {
       "outlines": [
@@ -87,7 +95,8 @@ let M = 'M', // SVG MoveTo
       "label": "Thapangthong",
       "shortLabel": "TT",
       "labelPosition": [357.5, 369.1],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SV.SO"
     },
     "LA.SV.SO": {
       "outlines": [
@@ -96,7 +105,8 @@ let M = 'M', // SVG MoveTo
       "label": "Songkhone",
       "shortLabel": "SO",
       "labelPosition": [189.4, 344.3],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SV.CH"
     },
     "LA.SV.CH": {
       "outlines": [
@@ -105,7 +115,8 @@ let M = 'M', // SVG MoveTo
       "label": "Champhone",
       "shortLabel": "CH",
       "labelPosition": [176.5, 229],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SV.XO"
     },
     "LA.SV.XO": {
       "outlines": [
@@ -114,7 +125,8 @@ let M = 'M', // SVG MoveTo
       "label": "Xonnabouly",
       "shortLabel": "XO",
       "labelPosition": [278.9, 260.3],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SV.XB"
     },
     "LA.SV.XB": {
       "outlines": [
@@ -123,7 +135,8 @@ let M = 'M', // SVG MoveTo
       "label": "Xaybuly",
       "shortLabel": "XB",
       "labelPosition": [80.8, 53.7],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SV.VI"
     },
     "LA.SV.VI": {
       "outlines": [
@@ -132,7 +145,8 @@ let M = 'M', // SVG MoveTo
       "label": "Vilabuly",
       "shortLabel": "VI",
       "labelPosition": [405.2, 77.5],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SV.AP"
     },
     "LA.SV.AP": {
       "outlines": [
@@ -141,7 +155,8 @@ let M = 'M', // SVG MoveTo
       "label": "Atsaphone",
       "shortLabel": "AP",
       "labelPosition": [231.1, 71.1],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SV.XP"
     },
     "LA.SV.XP": {
       "outlines": [
@@ -150,7 +165,8 @@ let M = 'M', // SVG MoveTo
       "label": "Xayphouthong",
       "shortLabel": "XP",
       "labelPosition": [91.2, 269.4],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.SV.TX"
     },
     "LA.SV.TX": {
       "outlines": [
