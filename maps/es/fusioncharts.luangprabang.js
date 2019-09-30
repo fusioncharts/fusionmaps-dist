@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.LuangPrabang.1.08-09-2016 04:23:01
+ * @id fusionmaps.LuangPrabang.1.06-19-2019 08:58:30
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,10 +21,12 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "LuangPrabang",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 532,
   "baseHeight": 700,
   "baseScaleFactor": 10,
+  "firstEntity": "LA.LP.PK",
   "entities": {
     "LA.LP.PK": {
       "outlines": [
@@ -33,7 +35,8 @@ let M = 'M', // SVG MoveTo
       "label": "Phoukhoune District",
       "shortLabel": "PK",
       "labelPosition": [255.4, 551],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.LP.VI"
     },
     "LA.LP.VI": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "Viengkham District",
       "shortLabel": "VI",
       "labelPosition": [411.8, 214.4],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.LP.CH"
     },
     "LA.LP.CH": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Chomphet District",
       "shortLabel": "CH",
       "labelPosition": [83.6, 406.7],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.LP.PH"
     },
     "LA.LP.PH": {
       "outlines": [
@@ -60,7 +65,8 @@ let M = 'M', // SVG MoveTo
       "label": "Phonxay District",
       "shortLabel": "PH",
       "labelPosition": [321.9, 422.1],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.LP.PX"
     },
     "LA.LP.PX": {
       "outlines": [
@@ -69,7 +75,8 @@ let M = 'M', // SVG MoveTo
       "label": "Pak Seng District",
       "shortLabel": "PX",
       "labelPosition": [287.6, 322.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.LP.NG"
     },
     "LA.LP.NG": {
       "outlines": [
@@ -78,7 +85,8 @@ let M = 'M', // SVG MoveTo
       "label": "Ngoy District",
       "shortLabel": "NG",
       "labelPosition": [323.4, 126],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.LP.NM"
     },
     "LA.LP.NM": {
       "outlines": [
@@ -87,7 +95,8 @@ let M = 'M', // SVG MoveTo
       "label": "Nam Bak District",
       "shortLabel": "NM",
       "labelPosition": [214.4, 182.7],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.LP.PO"
     },
     "LA.LP.PO": {
       "outlines": [
@@ -96,7 +105,8 @@ let M = 'M', // SVG MoveTo
       "label": "Pak Ou District",
       "shortLabel": "PO",
       "labelPosition": [194.7, 320.7],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.LP.NN"
     },
     "LA.LP.NN": {
       "outlines": [
@@ -105,7 +115,8 @@ let M = 'M', // SVG MoveTo
       "label": "Nane District",
       "shortLabel": "NN",
       "labelPosition": [83.4, 554.3],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.LP.XI"
     },
     "LA.LP.XI": {
       "outlines": [
@@ -114,7 +125,8 @@ let M = 'M', // SVG MoveTo
       "label": "Xiengngeun District",
       "shortLabel": "XI",
       "labelPosition": [162.1, 512.8],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.LP.LO"
     },
     "LA.LP.LO": {
       "outlines": [

@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.Champasak.1.08-09-2016 04:23:01
+ * @id fusionmaps.Champasak.1.06-19-2019 10:37:58
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,19 +21,22 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "Champasak",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 600,
   "baseHeight": 608,
   "baseScaleFactor": 10,
+  "firstEntity": "LA.CH.PE",
   "entities": {
     "LA.CH.PE": {
       "outlines": [
         [M, 2368, 1151, Q, 2368, 1145, 2335, 1158, 2331, 1159, 2321, 1164, 2312, 1168, 2310, 1169, 2270, 1190, 2254, 1190, 2247, 1190, 2243, 1187, 2229, 1189, 2193, 1183, 2155, 1175, 2147, 1174, 2065, 1158, 2048, 1158, 2027, 1158, 2014, 1169, 1999, 1187, 1984, 1198, 1955, 1220, 1952, 1223, 1940, 1233, 1931, 1247, 1937, 1253, 1944, 1259, 1984, 1292, 2007, 1313, 2029, 1333, 2051, 1341, 2074, 1348, 2076, 1356, 2079, 1365, 2083, 1376, 2086, 1386, 2092, 1393, 2105, 1411, 2123, 1422, 2132, 1428, 2154, 1439, 2156, 1440, 2158, 1441, 2171, 1452, 2191, 1458, 2212, 1464, 2232, 1465, 2253, 1466, 2281, 1481, 2308, 1495, 2313, 1507, 2322, 1529, 2326, 1546, 2331, 1563, 2331, 1587, 2332, 1602, 2357, 1626, 2370, 1638, 2388, 1655, 2391, 1659, 2395, 1665, L, 2395, 1653, Q, 2405, 1617, 2405, 1615, 2411, 1592, 2411, 1577, 2411, 1569, 2409, 1550, 2406, 1529, 2405, 1522, L, 2405, 1477, Q, 2405, 1442, 2408, 1435, 2413, 1420, 2442, 1405, 2470, 1390, 2479, 1373, 2485, 1361, 2485, 1330, 2485, 1287, 2478, 1265, 2471, 1244, 2448, 1210, 2437, 1193, 2434, 1190, 2426, 1180, 2414, 1172, 2394, 1159, 2393, 1159, Q, 2380, 1152, 2368, 1151, Z]
       ],
-      "label": "Pak S� District",
+      "label": "Pak Sé District",
       "shortLabel": "PE",
       "labelPosition": [222.2, 130.5],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.CH.SA"
     },
     "LA.CH.SA": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "Sanasomboun District",
       "shortLabel": "SA",
       "labelPosition": [191.4, 51.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.CH.BA"
     },
     "LA.CH.BA": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Bachiangchaleunsouk District",
       "shortLabel": "BA",
       "labelPosition": [268.8, 88.4],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.CH.PG"
     },
     "LA.CH.PG": {
       "outlines": [
@@ -60,7 +65,8 @@ let M = 'M', // SVG MoveTo
       "label": "Paksong District",
       "shortLabel": "PG",
       "labelPosition": [446.2, 125.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.CH.PT"
     },
     "LA.CH.PT": {
       "outlines": [
@@ -69,7 +75,8 @@ let M = 'M', // SVG MoveTo
       "label": "Pathoumphone District",
       "shortLabel": "PT",
       "labelPosition": [314, 297.5],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.CH.PH"
     },
     "LA.CH.PH": {
       "outlines": [
@@ -78,7 +85,8 @@ let M = 'M', // SVG MoveTo
       "label": "Phonthong District",
       "shortLabel": "PH",
       "labelPosition": [162, 145.8],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.CH.CH"
     },
     "LA.CH.CH": {
       "outlines": [
@@ -87,7 +95,8 @@ let M = 'M', // SVG MoveTo
       "label": "Champassack District",
       "shortLabel": "CH",
       "labelPosition": [193.7, 231.3],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.CH.SU"
     },
     "LA.CH.SU": {
       "outlines": [
@@ -96,7 +105,8 @@ let M = 'M', // SVG MoveTo
       "label": "Soukhouma District",
       "shortLabel": "SU",
       "labelPosition": [173.1, 327.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.CH.MO"
     },
     "LA.CH.MO": {
       "outlines": [
@@ -105,7 +115,8 @@ let M = 'M', // SVG MoveTo
       "label": "Mounlapamok District",
       "shortLabel": "MO",
       "labelPosition": [125.1, 454.5],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.CH.KH"
     },
     "LA.CH.KH": {
       "outlines": [

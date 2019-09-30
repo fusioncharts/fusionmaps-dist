@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.LuangNamtha.1.08-09-2016 04:23:01
+ * @id fusionmaps.LuangNamtha.1.06-19-2019 08:58:30
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,10 +21,12 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "LuangNamtha",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 500,
   "baseHeight": 517,
   "baseScaleFactor": 10,
+  "firstEntity": "LA.LM.NT",
   "entities": {
     "LA.LM.NT": {
       "outlines": [
@@ -33,7 +35,8 @@ let M = 'M', // SVG MoveTo
       "label": "Namtha District",
       "shortLabel": "NT",
       "labelPosition": [358.3, 232.5],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.LM.SI"
     },
     "LA.LM.SI": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "Sing District",
       "shortLabel": "SI",
       "labelPosition": [227.5, 121.5],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.LM.LO"
     },
     "LA.LM.LO": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Long District",
       "shortLabel": "LO",
       "labelPosition": [129.9, 234.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.LM.VI"
     },
     "LA.LM.VI": {
       "outlines": [
@@ -60,7 +65,8 @@ let M = 'M', // SVG MoveTo
       "label": "Viengphoukha District",
       "shortLabel": "VI",
       "labelPosition": [222.6, 376.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.LM.NL"
     },
     "LA.LM.NL": {
       "outlines": [

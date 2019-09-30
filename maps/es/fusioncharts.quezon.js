@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.Quezon.1.04-14-2017 03:02:07
+ * @id fusionmaps.Quezon.1.08-28-2019 12:41:47
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,10 +21,12 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "Quezon",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 662,
   "baseHeight": 901,
   "baseScaleFactor": 10,
+  "firstEntity": "PH.QZ.GN",
   "entities": {
     "PH.QZ.GN": {
       "outlines": [
@@ -33,7 +35,8 @@ let M = 'M', // SVG MoveTo
       "label": "General Nakar",
       "shortLabel": "GN",
       "labelPosition": [95.6, 137.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.IF"
     },
     "PH.QZ.IF": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "Infanta",
       "shortLabel": "IF",
       "labelPosition": [177.9, 217.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.PN"
     },
     "PH.QZ.PN": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Panukulan",
       "shortLabel": "PN",
       "labelPosition": [272.8, 109.3],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.PL"
     },
     "PH.QZ.PL": {
       "outlines": [
@@ -61,7 +66,8 @@ let M = 'M', // SVG MoveTo
       "label": "Polillo",
       "shortLabel": "PL",
       "labelPosition": [313.7, 216.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.BR"
     },
     "PH.QZ.BR": {
       "outlines": [
@@ -76,7 +82,8 @@ let M = 'M', // SVG MoveTo
       "label": "Burdeos",
       "shortLabel": "BR",
       "labelPosition": [314.1, 177],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.PT"
     },
     "PH.QZ.PT": {
       "outlines": [
@@ -85,7 +92,8 @@ let M = 'M', // SVG MoveTo
       "label": "Patnanungan",
       "shortLabel": "PT",
       "labelPosition": [388.9, 177.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.JM"
     },
     "PH.QZ.JM": {
       "outlines": [
@@ -94,7 +102,8 @@ let M = 'M', // SVG MoveTo
       "label": "Jomalig",
       "shortLabel": "JM",
       "labelPosition": [479.6, 226.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.RA"
     },
     "PH.QZ.RA": {
       "outlines": [
@@ -103,7 +112,8 @@ let M = 'M', // SVG MoveTo
       "label": "Real",
       "shortLabel": "RA",
       "labelPosition": [135.7, 292],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.MU"
     },
     "PH.QZ.MU": {
       "outlines": [
@@ -113,7 +123,8 @@ let M = 'M', // SVG MoveTo
       "label": "Mauban",
       "shortLabel": "MU",
       "labelPosition": [194, 424.8],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.SM"
     },
     "PH.QZ.SM": {
       "outlines": [
@@ -122,7 +133,8 @@ let M = 'M', // SVG MoveTo
       "label": "Sampaloc",
       "shortLabel": "SM",
       "labelPosition": [159.8, 448.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.LU"
     },
     "PH.QZ.LU": {
       "outlines": [
@@ -131,7 +143,8 @@ let M = 'M', // SVG MoveTo
       "label": "Lucban",
       "shortLabel": "LU",
       "labelPosition": [140.3, 481.5],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.TY"
     },
     "PH.QZ.TY": {
       "outlines": [
@@ -140,7 +153,8 @@ let M = 'M', // SVG MoveTo
       "label": "Tayabas",
       "shortLabel": "TY",
       "labelPosition": [154.1, 519.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.SR"
     },
     "PH.QZ.SR": {
       "outlines": [
@@ -149,7 +163,8 @@ let M = 'M', // SVG MoveTo
       "label": "Sariaya",
       "shortLabel": "SR",
       "labelPosition": [120.1, 560.5],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.CN"
     },
     "PH.QZ.CN": {
       "outlines": [
@@ -158,7 +173,8 @@ let M = 'M', // SVG MoveTo
       "label": "Candelaria",
       "shortLabel": "CN",
       "labelPosition": [83.7, 558.4],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.DL"
     },
     "PH.QZ.DL": {
       "outlines": [
@@ -167,7 +183,8 @@ let M = 'M', // SVG MoveTo
       "label": "Dolores",
       "shortLabel": "DL",
       "labelPosition": [69.9, 529.7],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.TA"
     },
     "PH.QZ.TA": {
       "outlines": [
@@ -176,7 +193,8 @@ let M = 'M', // SVG MoveTo
       "label": "Tiaong",
       "shortLabel": "TA",
       "labelPosition": [41.7, 549.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.SA"
     },
     "PH.QZ.SA": {
       "outlines": [
@@ -185,7 +203,8 @@ let M = 'M', // SVG MoveTo
       "label": "San Antonio",
       "shortLabel": "SA",
       "labelPosition": [31.2, 577.5],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.LC"
     },
     "PH.QZ.LC": {
       "outlines": [
@@ -194,7 +213,8 @@ let M = 'M', // SVG MoveTo
       "label": "Lucena",
       "shortLabel": "LC",
       "labelPosition": [165.9, 560.1],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.PG"
     },
     "PH.QZ.PG": {
       "outlines": [
@@ -203,7 +223,8 @@ let M = 'M', // SVG MoveTo
       "label": "Pagbilao",
       "shortLabel": "PG",
       "labelPosition": [213.6, 530.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.AI"
     },
     "PH.QZ.AI": {
       "outlines": [
@@ -212,7 +233,8 @@ let M = 'M', // SVG MoveTo
       "label": "Atimonan",
       "shortLabel": "AI",
       "labelPosition": [280, 544.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.PD"
     },
     "PH.QZ.PD": {
       "outlines": [
@@ -221,7 +243,8 @@ let M = 'M', // SVG MoveTo
       "label": "Padre Burgos",
       "shortLabel": "PD",
       "labelPosition": [264.7, 571.1],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.AD"
     },
     "PH.QZ.AD": {
       "outlines": [
@@ -230,7 +253,8 @@ let M = 'M', // SVG MoveTo
       "label": "Agdangan",
       "shortLabel": "AD",
       "labelPosition": [295.7, 588.4],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.UI"
     },
     "PH.QZ.UI": {
       "outlines": [
@@ -239,7 +263,8 @@ let M = 'M', // SVG MoveTo
       "label": "Unisan",
       "shortLabel": "UI",
       "labelPosition": [326.9, 595],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.PA"
     },
     "PH.QZ.PA": {
       "outlines": [
@@ -248,7 +273,8 @@ let M = 'M', // SVG MoveTo
       "label": "Plaridel",
       "shortLabel": "PA",
       "labelPosition": [329.1, 555.3],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.GM"
     },
     "PH.QZ.GM": {
       "outlines": [
@@ -257,7 +283,8 @@ let M = 'M', // SVG MoveTo
       "label": "Gumaca",
       "shortLabel": "GM",
       "labelPosition": [377, 582.1],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.PI"
     },
     "PH.QZ.PI": {
       "outlines": [
@@ -266,7 +293,8 @@ let M = 'M', // SVG MoveTo
       "label": "Pitogo",
       "shortLabel": "PI",
       "labelPosition": [364.2, 619.7],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.MC"
     },
     "PH.QZ.MC": {
       "outlines": [
@@ -275,7 +303,8 @@ let M = 'M', // SVG MoveTo
       "label": "Macalelon",
       "shortLabel": "MC",
       "labelPosition": [402.4, 632.3],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.GL"
     },
     "PH.QZ.GL": {
       "outlines": [
@@ -284,7 +313,8 @@ let M = 'M', // SVG MoveTo
       "label": "General Luna",
       "shortLabel": "GL",
       "labelPosition": [411.7, 664],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.CT"
     },
     "PH.QZ.CT": {
       "outlines": [
@@ -293,7 +323,8 @@ let M = 'M', // SVG MoveTo
       "label": "Catanauan",
       "shortLabel": "CT",
       "labelPosition": [460.1, 691.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.ML"
     },
     "PH.QZ.ML": {
       "outlines": [
@@ -302,16 +333,18 @@ let M = 'M', // SVG MoveTo
       "label": "Mulanay",
       "shortLabel": "ML",
       "labelPosition": [517.7, 732.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.SF"
     },
     "PH.QZ.SF": {
       "outlines": [
         [M, 5667, 7766, Q, 5656, 7766, 5653, 7760, 5648, 7752, 5643, 7748, 5642, 7747, 5642, 7746, 5638, 7739, 5633, 7739, 5627, 7737, 5624, 7736, 5623, 7735, 5620, 7735, 5610, 7735, 5608, 7729, 5606, 7729, 5604, 7729, 5602, 7729, 5601, 7730, 5599, 7732, 5595, 7733, 5593, 7733, 5592, 7734, 5583, 7744, 5575, 7750, 5573, 7751, 5572, 7752, 5562, 7756, 5551, 7757, 5541, 7758, 5533, 7761, 5531, 7762, 5530, 7762, 5523, 7766, 5520, 7775, 5518, 7781, 5516, 7786, 5515, 7788, 5511, 7789, 5502, 7790, 5492, 7792, 5482, 7794, 5473, 7799, 5472, 7799, 5471, 7800, 5468, 7803, 5464, 7808, 5463, 7811, 5459, 7813, 5457, 7815, 5452, 7815, 5439, 7813, 5431, 7819, 5429, 7820, 5428, 7822, 5427, 7824, 5426, 7825, 5424, 7828, 5422, 7831, 5418, 7837, 5408, 7841, 5406, 7841, 5404, 7842, 5402, 7842, 5400, 7843, 5399, 7845, 5397, 7845, 5390, 7847, 5387, 7853, 5386, 7855, 5385, 7857, 5383, 7858, 5382, 7860, 5381, 7864, 5377, 7868, 5371, 7874, 5360, 7872, 5346, 7871, 5333, 7874, 5331, 7875, 5329, 7876, 5323, 7886, 5311, 7896, 5310, 7898, 5307, 7899, 5298, 7901, 5289, 7902, 5269, 7903, 5254, 7897, 5258, 7907, 5270, 7910, 5276, 7911, 5276, 7918, 5276, 7928, 5276, 7937, 5275, 7952, 5278, 7966, 5281, 7977, 5281, 7990, 5281, 7991, 5282, 7992, 5282, 7994, 5283, 7995, 5288, 7999, 5293, 8004, 5294, 8006, 5295, 8008, 5298, 8019, 5298, 8032, 5297, 8054, 5310, 8067, 5312, 8069, 5314, 8070, 5316, 8071, 5317, 8072, 5321, 8077, 5329, 8078, 5330, 8079, 5330, 8080, 5329, 8087, 5332, 8089, 5334, 8090, 5334, 8092, 5333, 8104, 5343, 8109, 5352, 8113, 5358, 8122, 5360, 8124, 5361, 8127, 5362, 8133, 5364, 8139, 5369, 8152, 5382, 8157, 5388, 8160, 5389, 8166, 5390, 8168, 5390, 8170, 5391, 8172, 5391, 8174, 5392, 8185, 5397, 8193, 5398, 8195, 5400, 8198, 5403, 8203, 5403, 8210, 5403, 8212, 5403, 8214, 5404, 8227, 5405, 8239, 5406, 8258, 5409, 8277, 5410, 8281, 5410, 8284, 5411, 8308, 5411, 8332, 5411, 8334, 5410, 8336, 5409, 8337, 5407, 8339, 5405, 8342, 5402, 8343, 5400, 8343, 5399, 8345, 5396, 8349, 5390, 8351, 5385, 8352, 5381, 8353, 5380, 8354, 5380, 8355, 5379, 8357, 5379, 8357, 5375, 8358, 5376, 8363, 5379, 8378, 5366, 8384, 5363, 8386, 5360, 8385, 5355, 8385, 5356, 8389, 5356, 8392, 5356, 8395, 5354, 8406, 5360, 8412, 5366, 8420, 5373, 8424, 5376, 8425, 5377, 8427, 5378, 8430, 5383, 8429, 5385, 8429, 5387, 8429, 5393, 8431, 5396, 8432, 5398, 8433, 5400, 8434, 5401, 8435, 5402, 8437, 5409, 8446, 5412, 8456, 5414, 8460, 5411, 8460, 5403, 8460, 5396, 8461, 5394, 8461, 5392, 8461, 5384, 8461, 5384, 8466, 5383, 8475, 5383, 8483, L, 5383, 8490, Q, 5383, 8494, 5383, 8498, 5383, 8500, 5383, 8502, 5380, 8512, 5380, 8523, 5380, 8524, 5380, 8525, 5380, 8535, 5377, 8544, 5376, 8546, 5374, 8548, 5373, 8549, 5372, 8551, 5370, 8554, 5366, 8556, 5363, 8558, 5360, 8559, 5356, 8562, 5351, 8565, 5345, 8569, 5346, 8582, 5346, 8593, 5337, 8597, 5335, 8598, 5334, 8599, 5329, 8605, 5330, 8613, 5332, 8635, 5354, 8636, 5356, 8636, 5357, 8637, 5363, 8639, 5368, 8640, 5371, 8640, 5374, 8642, 5379, 8644, 5381, 8649, 5382, 8651, 5384, 8653, 5386, 8654, 5389, 8654, 5396, 8654, 5399, 8658, 5401, 8660, 5402, 8662, 5407, 8670, 5415, 8674, 5418, 8675, 5421, 8675, 5429, 8676, 5431, 8683, 5431, 8685, 5432, 8686, 5434, 8690, 5435, 8693, 5437, 8696, 5439, 8699, 5444, 8705, 5450, 8707, 5454, 8708, 5455, 8709, 5459, 8713, 5463, 8715, 5464, 8715, 5464, 8716, 5465, 8723, 5471, 8726, 5474, 8728, 5475, 8729, 5478, 8731, 5480, 8732, 5491, 8737, 5499, 8746, 5505, 8753, 5503, 8763, 5503, 8765, 5504, 8766, 5505, 8769, 5507, 8771, 5511, 8776, 5518, 8781, 5523, 8784, 5523, 8790, 5523, 8802, 5532, 8807, 5540, 8811, 5543, 8821, 5544, 8824, 5545, 8826, 5551, 8835, 5562, 8840, 5569, 8844, 5570, 8853, 5570, 8855, 5571, 8857, 5575, 8863, 5583, 8868, 5585, 8869, 5586, 8870, 5589, 8873, 5589, 8876, 5591, 8889, 5595, 8899, 5596, 8901, 5598, 8903, 5606, 8909, 5616, 8910, 5621, 8910, 5625, 8910, 5627, 8911, 5629, 8911, 5633, 8912, 5637, 8913, 5646, 8915, 5652, 8924, 5654, 8927, 5658, 8931, 5663, 8937, 5671, 8936, 5679, 8935, 5681, 8939, 5684, 8941, 5686, 8945, 5689, 8953, 5700, 8954, 5706, 8954, 5711, 8956, 5714, 8957, 5715, 8959, 5719, 8964, 5725, 8968, 5727, 8969, 5727, 8970, 5728, 8975, 5730, 8976, 5733, 8978, 5736, 8978, 5741, 8979, 5746, 8979, 5759, 8980, 5770, 8977, 5777, 8975, 5778, 8970, 5782, 8962, 5791, 8960, 5795, 8959, 5797, 8956, 5802, 8950, 5809, 8950, 5819, 8950, 5822, 8939, 5822, 8936, 5823, 8933, 5823, 8931, 5825, 8930, 5839, 8928, 5854, 8928, 5862, 8929, 5866, 8922, 5867, 8921, 5868, 8921, 5875, 8922, 5879, 8916, 5883, 8908, 5886, 8901, 5886, 8899, 5888, 8898, 5899, 8895, 5908, 8884, 5909, 8883, 5909, 8882, 5910, 8878, 5911, 8874, 5911, 8872, 5911, 8870, 5913, 8861, 5923, 8860, 5926, 8860, 5929, 8859, 5936, 8858, 5938, 8855, 5940, 8854, 5941, 8852, 5945, 8845, 5948, 8838, 5952, 8831, 5965, 8831, 5977, 8831, 5981, 8823, 5982, 8821, 5983, 8820, 5984, 8817, 5985, 8815, 5986, 8813, 5987, 8812, 5994, 8807, 6003, 8805, 6012, 8803, 6017, 8796, 6019, 8795, 6019, 8794, 6021, 8789, 6026, 8786, 6034, 8782, 6045, 8783, 6047, 8782, 6049, 8782, 6051, 8781, 6053, 8781, 6063, 8780, 6069, 8776, 6070, 8775, 6071, 8774, 6071, 8769, 6068, 8765, 6067, 8764, 6066, 8762, 6065, 8753, 6064, 8744, 6063, 8723, 6061, 8702, 6059, 8683, 6060, 8662, 6061, 8651, 6057, 8645, 6056, 8643, 6056, 8641, 6055, 8636, 6055, 8630, 6054, 8624, 6054, 8618, 6054, 8616, 6054, 8613, 6055, 8596, 6056, 8578, 6056, 8561, 6053, 8546, 6052, 8543, 6050, 8540, 6046, 8535, 6039, 8530, 6038, 8529, 6036, 8528, 6031, 8525, 6032, 8519, 6034, 8503, 6025, 8490, 6021, 8483, 6016, 8478, 6014, 8477, 6013, 8475, 6010, 8466, 6010, 8456, 6010, 8445, 6005, 8437, 6004, 8436, 6003, 8435, 5991, 8430, 5988, 8420, 5987, 8418, 5986, 8417, 5980, 8415, 5980, 8407, 5980, 8402, 5979, 8397, 5979, 8394, 5977, 8391, 5976, 8390, 5974, 8388, 5973, 8387, 5973, 8384, 5972, 8379, 5972, 8374, 5972, 8368, 5968, 8364, 5964, 8358, 5960, 8353, 5959, 8352, 5958, 8350, 5957, 8349, 5956, 8348, 5951, 8342, 5950, 8332, 5949, 8329, 5949, 8326, 5947, 8316, 5944, 8309, 5943, 8308, 5943, 8307, 5942, 8300, 5934, 8303, 5931, 8304, 5929, 8302, 5924, 8299, 5919, 8298, 5914, 8297, 5910, 8297, 5903, 8296, 5896, 8295, 5894, 8294, 5892, 8293, 5889, 8292, 5885, 8292, 5866, 8292, 5847, 8291, 5845, 8291, 5843, 8291, 5831, 8290, 5820, 8285, 5814, 8282, 5811, 8271, 5811, 8269, 5811, 8267, 5810, 8251, 5810, 8235, 5810, 8226, 5809, 8216, 5809, 8213, 5808, 8210, 5805, 8202, 5799, 8197, 5797, 8195, 5797, 8193, 5795, 8173, 5795, 8153, 5795, 8150, 5795, 8147, 5797, 8138, 5791, 8139, 5785, 8140, 5785, 8137, 5784, 8129, 5784, 8122, 5784, 8120, 5783, 8118, 5781, 8115, 5779, 8113, 5777, 8111, 5773, 8108, 5769, 8105, 5765, 8099, 5763, 8097, 5763, 8095, 5761, 8078, 5762, 8061, 5763, 8021, 5760, 7983, 5759, 7973, 5758, 7962, 5757, 7952, 5757, 7941, 5757, 7938, 5756, 7937, 5753, 7934, 5754, 7927, 5755, 7925, 5754, 7922, 5752, 7913, 5752, 7901, 5752, 7898, 5752, 7895, 5751, 7857, 5751, 7817, 5748, 7816, 5744, 7815, 5742, 7814, 5740, 7814, 5732, 7812, 5729, 7807, 5721, 7792, 5704, 7789, 5700, 7789, 5696, 7789, 5684, 7791, 5681, 7781, 5680, 7779, 5679, 7777, 5677, 7775, 5676, 7773, 5675, 7771, 5674, 7769, Q, 5672, 7766, 5667, 7766, Z]
       ],
-      "label": "San Francisco (Aurora)",
+      "label": "San Francisco",
       "shortLabel": "SF",
       "labelPosition": [566.2, 846.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.SS"
     },
     "PH.QZ.SS": {
       "outlines": [
@@ -321,7 +354,8 @@ let M = 'M', // SVG MoveTo
       "label": "San Andres",
       "shortLabel": "SS",
       "labelPosition": [591.5, 806.5],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.SN"
     },
     "PH.QZ.SN": {
       "outlines": [
@@ -330,7 +364,8 @@ let M = 'M', // SVG MoveTo
       "label": "San Narciso",
       "shortLabel": "SN",
       "labelPosition": [573.7, 761.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.BE"
     },
     "PH.QZ.BE": {
       "outlines": [
@@ -339,7 +374,8 @@ let M = 'M', // SVG MoveTo
       "label": "Buenavista",
       "shortLabel": "BE",
       "labelPosition": [513, 647.1],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.LP"
     },
     "PH.QZ.LP": {
       "outlines": [
@@ -348,7 +384,8 @@ let M = 'M', // SVG MoveTo
       "label": "Lopez",
       "shortLabel": "LP",
       "labelPosition": [447.7, 603.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.GI"
     },
     "PH.QZ.GI": {
       "outlines": [
@@ -357,7 +394,8 @@ let M = 'M', // SVG MoveTo
       "label": "Guinayangan",
       "shortLabel": "GI",
       "labelPosition": [513.4, 600.8],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.TG"
     },
     "PH.QZ.TG": {
       "outlines": [
@@ -366,7 +404,8 @@ let M = 'M', // SVG MoveTo
       "label": "Tagkawayan",
       "shortLabel": "TG",
       "labelPosition": [570, 520.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.CL"
     },
     "PH.QZ.CL": {
       "outlines": [
@@ -375,7 +414,8 @@ let M = 'M', // SVG MoveTo
       "label": "Calauag",
       "shortLabel": "CL",
       "labelPosition": [440.9, 504],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.PR"
     },
     "PH.QZ.PR": {
       "outlines": [
@@ -384,7 +424,8 @@ let M = 'M', // SVG MoveTo
       "label": "Perez",
       "shortLabel": "PR",
       "labelPosition": [305.8, 454.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.AA"
     },
     "PH.QZ.AA": {
       "outlines": [
@@ -393,7 +434,8 @@ let M = 'M', // SVG MoveTo
       "label": "Alabat",
       "shortLabel": "AA",
       "labelPosition": [329, 476.3],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "PH.QZ.QE"
     },
     "PH.QZ.QE": {
       "outlines": [

@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.Sayabouly.1.08-09-2016 04:23:01
+ * @id fusionmaps.Sayabouly.1.06-19-2019 10:59:11
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,10 +21,12 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "Sayabouly",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 405,
   "baseHeight": 700,
   "baseScaleFactor": 10,
+  "firstEntity": "LA.XA.XA",
   "entities": {
     "LA.XA.XA": {
       "outlines": [
@@ -33,7 +35,8 @@ let M = 'M', // SVG MoveTo
       "label": "Xayabury District",
       "shortLabel": "XA",
       "labelPosition": [309.3, 170],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XA.KH"
     },
     "LA.XA.KH": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "Khop District",
       "shortLabel": "KH",
       "labelPosition": [44.3, 77.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XA.HO"
     },
     "LA.XA.HO": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Hongsa District",
       "shortLabel": "HO",
       "labelPosition": [301.9, 65.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XA.NG"
     },
     "LA.XA.NG": {
       "outlines": [
@@ -60,7 +65,8 @@ let M = 'M', // SVG MoveTo
       "label": "Ngeun District",
       "shortLabel": "NG",
       "labelPosition": [197.2, 60.3],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XA.XI"
     },
     "LA.XA.XI": {
       "outlines": [
@@ -69,7 +75,8 @@ let M = 'M', // SVG MoveTo
       "label": "Xienghone District",
       "shortLabel": "XI",
       "labelPosition": [124.7, 69.8],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XA.PH"
     },
     "LA.XA.PH": {
       "outlines": [
@@ -78,7 +85,8 @@ let M = 'M', // SVG MoveTo
       "label": "Phiang District",
       "shortLabel": "PH",
       "labelPosition": [291.8, 301.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XA.PA"
     },
     "LA.XA.PA": {
       "outlines": [
@@ -87,7 +95,8 @@ let M = 'M', // SVG MoveTo
       "label": "Parklai District",
       "shortLabel": "PA",
       "labelPosition": [299.3, 427.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XA.KE"
     },
     "LA.XA.KE": {
       "outlines": [
@@ -96,7 +105,8 @@ let M = 'M', // SVG MoveTo
       "label": "Kenethao District",
       "shortLabel": "KE",
       "labelPosition": [255.1, 590.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XA.BO"
     },
     "LA.XA.BO": {
       "outlines": [
@@ -105,7 +115,8 @@ let M = 'M', // SVG MoveTo
       "label": "Botene District",
       "shortLabel": "BO",
       "labelPosition": [180.9, 629.7],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XA.TH"
     },
     "LA.XA.TH": {
       "outlines": [

@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.Sekong.1.08-09-2016 04:23:01
+ * @id fusionmaps.Sekong.1.06-19-2019 10:59:11
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,10 +21,12 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "Sekong",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 500,
   "baseHeight": 448,
   "baseScaleFactor": 10,
+  "firstEntity": "LA.XE.LA",
   "entities": {
     "LA.XE.LA": {
       "outlines": [
@@ -33,7 +35,8 @@ let M = 'M', // SVG MoveTo
       "label": "Lamam District",
       "shortLabel": "LA",
       "labelPosition": [198.3, 297.4],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XE.KA"
     },
     "LA.XE.KA": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "Kaleum District",
       "shortLabel": "KA",
       "labelPosition": [281.2, 121],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XE.DA"
     },
     "LA.XE.DA": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Dakcheung District",
       "shortLabel": "DA",
       "labelPosition": [382.1, 310.5],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.XE.TH"
     },
     "LA.XE.TH": {
       "outlines": [

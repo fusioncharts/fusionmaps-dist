@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.Attapeu.1.08-09-2016 04:23:00
+ * @id fusionmaps.Attapeu.1.06-19-2019 08:58:30
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,10 +21,12 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "Attapeu",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 500,
   "baseHeight": 368,
   "baseScaleFactor": 10,
+  "firstEntity": "LA.AT.XA",
   "entities": {
     "LA.AT.XA": {
       "outlines": [
@@ -33,7 +35,8 @@ let M = 'M', // SVG MoveTo
       "label": "Xaysetha District",
       "shortLabel": "XA",
       "labelPosition": [282.4, 148.4],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.AT.SK"
     },
     "LA.AT.SK": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "Samakkhixay District",
       "shortLabel": "SK",
       "labelPosition": [214.8, 177.1],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.AT.SN"
     },
     "LA.AT.SN": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Sanamxay District",
       "shortLabel": "SN",
       "labelPosition": [98.6, 219.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.AT.SX"
     },
     "LA.AT.SX": {
       "outlines": [
@@ -60,7 +65,8 @@ let M = 'M', // SVG MoveTo
       "label": "Sanxay District",
       "shortLabel": "SX",
       "labelPosition": [383, 97.8],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.AT.PH"
     },
     "LA.AT.PH": {
       "outlines": [

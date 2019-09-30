@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.Phongsali.1.08-09-2016 04:23:01
+ * @id fusionmaps.Phongsali.1.06-19-2019 10:59:11
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,10 +21,12 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "Phongsali",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 500,
   "baseHeight": 600,
   "baseScaleFactor": 10,
+  "firstEntity": "LA.PH.PH",
   "entities": {
     "LA.PH.PH": {
       "outlines": [
@@ -33,7 +35,8 @@ let M = 'M', // SVG MoveTo
       "label": "Phongsaly District",
       "shortLabel": "PH",
       "labelPosition": [224.6, 238.2],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.PH.MA"
     },
     "LA.PH.MA": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "May District",
       "shortLabel": "MA",
       "labelPosition": [405.1, 387],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.PH.KH"
     },
     "LA.PH.KH": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Khoua District",
       "shortLabel": "KH",
       "labelPosition": [288.2, 518],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.PH.SA"
     },
     "LA.PH.SA": {
       "outlines": [
@@ -60,7 +65,8 @@ let M = 'M', // SVG MoveTo
       "label": "Samphanh District",
       "shortLabel": "SA",
       "labelPosition": [290.8, 304.8],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.PH.BN"
     },
     "LA.PH.BN": {
       "outlines": [
@@ -69,7 +75,8 @@ let M = 'M', // SVG MoveTo
       "label": "Boun Neua District",
       "shortLabel": "BN",
       "labelPosition": [120.3, 291.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.PH.NH"
     },
     "LA.PH.NH": {
       "outlines": [
@@ -78,7 +85,8 @@ let M = 'M', // SVG MoveTo
       "label": "Yot Ou District",
       "shortLabel": "NH",
       "labelPosition": [128.9, 122.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.PH.BT"
     },
     "LA.PH.BT": {
       "outlines": [

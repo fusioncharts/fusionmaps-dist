@@ -5,7 +5,7 @@
  *
  * @author FusionCharts Technologies LLP
  * @meta package_map_pack
- * @id fusionmaps.Bolikhamsai.1.08-09-2016 04:23:01
+ * @id fusionmaps.Bolikhamsai.1.06-19-2019 10:37:58
  */
 
 let M = 'M', // SVG MoveTo
@@ -21,10 +21,12 @@ let M = 'M', // SVG MoveTo
   geodefinitions = [{
   "name": "Bolikhamsai",
   "revision": 1,
-  "standaloneInit": true,
+  "creditLabel": false,
+  "standaloneInit": false,
   "baseWidth": 600,
   "baseHeight": 320,
   "baseScaleFactor": 10,
+  "firstEntity": "LA.BL.PS",
   "entities": {
     "LA.BL.PS": {
       "outlines": [
@@ -33,7 +35,8 @@ let M = 'M', // SVG MoveTo
       "label": "Paksan District",
       "shortLabel": "PS",
       "labelPosition": [236.8, 183.8],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.BL.TH"
     },
     "LA.BL.TH": {
       "outlines": [
@@ -42,7 +45,8 @@ let M = 'M', // SVG MoveTo
       "label": "Thaphabath District",
       "shortLabel": "TH",
       "labelPosition": [70.8, 193.9],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.BL.PD"
     },
     "LA.BL.PD": {
       "outlines": [
@@ -51,7 +55,8 @@ let M = 'M', // SVG MoveTo
       "label": "Pakkading District",
       "shortLabel": "PD",
       "labelPosition": [341.6, 223.7],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.BL.BO"
     },
     "LA.BL.BO": {
       "outlines": [
@@ -60,7 +65,8 @@ let M = 'M', // SVG MoveTo
       "label": "Bolikhanh District",
       "shortLabel": "BO",
       "labelPosition": [218.1, 120.6],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.BL.KH"
     },
     "LA.BL.KH": {
       "outlines": [
@@ -69,7 +75,8 @@ let M = 'M', // SVG MoveTo
       "label": "Khamkeut District",
       "shortLabel": "KH",
       "labelPosition": [509.1, 197],
-      "labelAlignment": [CEN, MID]
+      "labelAlignment": [CEN, MID],
+      "nextId": "LA.BL.VI"
     },
     "LA.BL.VI": {
       "outlines": [
