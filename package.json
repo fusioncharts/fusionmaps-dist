@@ -23,8 +23,8 @@
     "type": "git",
     "url": "https://github.com/fusioncharts/fusionmaps-dist"
   },
-  "author": "FusionCharts Technologies  <support@fusioncharts.com>",
-  "version": "3.14.1",
+  "author": "InfoSoft Global Pvt. Ltd.  <support@fusioncharts.com>",
+  "version": "3.15.0",
   "homepage": "http://www.fusioncharts.com/",
   "dependencies": {}
 }

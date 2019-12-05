@@ -29,10 +29,10 @@ var css = "@font-face {\n  font-family: 'Source Sans Pro';\n  font-style: normal
 styleInject(css);
 
 /*
- Fusion Theme v0.4
+ Fusion Theme v0.5
  FusionCharts JavaScript Library
 
- Copyright FusionCharts Technologies LLP
+ Copyright InfoSoft Global Pvt. Ltd.
  License Information at <http://www.fusioncharts.com/license>
 */
 /* jshint ignore:end */
@@ -198,10 +198,9 @@ var themeObject = {
         showPercentValues: "1",
         showValues: "1",
         showPercentInTooltip: "0",
-        useDataPlotColorForLabels: "0",
         showLegend: "1",
         legendIconSides: "2",
-        labelFontColor: "#666"
+        useDataPlotColorForLabels: 0
       }
     },
 
@@ -216,7 +215,6 @@ var themeObject = {
         legendIconSides: "2",
         pieSliceDepth: "15",
         pieYScale: "60",
-        labelFontColor: "#666",
         labelDistance: "20",
         showPercentInTooltip: "0"
       }
@@ -232,7 +230,6 @@ var themeObject = {
         showLegend: "1",
         legendIconSides: "2",
         showPlotBorder: "0",
-        labelFontColor: "#666",
         centerLabelColor: "#666",
         centerLabelFontSize: "14",
         showPercentInTooltip: "0"
@@ -250,7 +247,6 @@ var themeObject = {
         legendIconSides: "2",
         pieSliceDepth: "15",
         pieYScale: "60",
-        labelFontColor: "#666",
         centerLabelColor: "#666",
         centerLabelFontSize: "14",
         showPercentInTooltip: "0"
@@ -1831,6 +1827,49 @@ var themeObject = {
       }
     },
 
+    // 104 Sankey Diagram
+    sankey: {
+      chart: {
+        nodeLabelFontColor: "#666",
+        nodeLabelFontSize: 14,
+        nodeLabelPosition: "inside",
+        nodeHoverAlpha: 75,
+        legendPosition: "bottom",
+        plothighlighteffect: "fadeout",
+        linkColor: "source",
+        textOutline: 1,
+        linkHoverAlpha: 75,
+        linkAlpha: 30,
+        enableDrag: 0
+      }
+    },
+
+    // 105 Sunburst Chart
+    sunburst: {
+      chart: {
+        useHoverColor: "0"
+      }
+    },
+
+    // 106 Chord Diagram
+    chord: {
+      chart: {
+        drawCustomLegendIcon: 0,
+        legendPosition: "right",
+        nodeThickness: 8,
+        nodeLabelColor: "#666",
+        nodeLabelFontSize: 14,
+        nodeLabelPosition: "outside",
+        nodeHoverAlpha: 100,
+        nodeLinkPadding: 5,
+        nodeBorderThickness: 0.5,
+        nodeAlpha: 100,
+        linkAlpha: 40,
+        linkBorderAlpha: 40,
+        linkHoverAlpha: 75
+      }
+    },
+
     // timeseries
     timeseries: {
       // caption styling
@@ -1990,17 +2029,60 @@ var themeObject = {
         }
       },
       legend: {
-        item: {
-          style: {
-            text: {
-              fill: "#7C7C7C",
-              "font-size": 15,
-              "font-family": "Source Sans Pro"
-            }
+        style: {
+          text: {
+            fill: "#7C7C7C",
+            "font-size": 15,
+            "font-family": "Source Sans Pro"
           }
         }
       },
       xaxis: {
+        timemarker: [
+          {
+            style: {
+              marker: {
+                fill: "#62b58f",
+                stroke: "#62b58f"
+              },
+              "marker:hover": {
+                fill: "#3e8464",
+                stroke: "#3e8464",
+                "stroke-width": 1
+              },
+              "marker-box": {
+                fill: "#F8B8B7",
+                stroke: "#F8B8B7",
+                "stroke-width": 1
+              },
+              "marker-box:hover": {
+                fill: "#F2726F",
+                stroke: "#F2726F",
+                "stroke-width": 1
+              },
+              "marker-notch": {
+                fill: "#F8B8B7",
+                stroke: "#F8B8B7"
+              },
+              "marker-notch:hover": {
+                fill: "#F2726F",
+                stroke: "#F2726F"
+              },
+              "marker-line": {
+                stroke: "#F8B8B7"
+              },
+              "marker-line:hover": {
+                stroke: "#F2726F"
+              },
+              text: {
+                fill: "#5F5F5F"
+              },
+              "text:hover": {
+                fill: "#5F5F5F"
+              }
+            }
+          }
+        ],
         style: {
           title: {
             "font-size": 15,

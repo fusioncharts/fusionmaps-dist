@@ -1,8 +1,8 @@
 /*
- Gammel Theme v0.4
+ Gammel Theme v0.5
  FusionCharts JavaScript Library
 
- Copyright FusionCharts Technologies LLP
+ Copyright InfoSoft Global Pvt. Ltd.
  License Information at <http://www.fusioncharts.com/license>
 */
 var themeObject = {
@@ -86,6 +86,7 @@ var themeObject = {
         centerLabelColor: "#666666",
         centerLabelBgOval: "1",
         useEllipsesWhenOverflow: "1",
+        textOutline: 1,
 
         // legend customization
         showLegend: "1",
@@ -1822,6 +1823,54 @@ var themeObject = {
       }
     },
 
+    // 104 Sankey Diagram
+    sankey: {
+      chart: {
+        showLegend: 0,
+        nodeLabelFontColor: "#000000",
+        nodeLabelFontBold: 1,
+        nodeLabelFontSize: 11,
+        nodeAlpha: 100,
+        linkAlpha: 50,
+        nodeLabelPosition: "inside",
+        nodeHoverAlpha: 100,
+        linkHoverAlpha: 100,
+        enableDrag: 0
+      }
+    },
+
+    // 105 Sunburst Chart
+    sunburst: {
+      chart: {
+        showPlotBorder: 1,
+        plotBorderColor: "#FFFFFF",
+        plotBorderAlpha: "100",
+        plotBorderThickness: "1",
+        useHoverColor: "0"
+      }
+    },
+
+    //106 Chord Diagram
+    chord: {
+      chart: {
+        drawCustomLegendIcon: 0,
+        showLegend: 0,
+        nodeLabelColor: "#000000",
+        nodeLabelFontBold: 1,
+        nodeLabelFontSize: 11,
+        nodeLabelPosition: "outside",
+        nodeAlpha: 100,
+        nodeHoverAlpha: 100,
+        linkAlpha: 50,
+        linkBorderAlpha: 50,
+        linkHoverAlpha: 100,
+        nodeBorderThickness: 0,
+        nodeSpacing: 2,
+        nodeThickness: 11,
+        nodeLinkPadding: 4
+      }
+    },
+
     // timeseries
     timeseries: {
       // caption styling
@@ -2050,19 +2099,58 @@ var themeObject = {
         }
       },
       legend: {
-        item: {
-          style: {
-            text: {
-              fill: "#333333",
-              "font-size": 12,
-              "font-family":
-                "Lucida Grande, Lucida Sans Unicode, Arial, Helvetica, sans-serif",
-              "font-weight": 600
-            }
+        style: {
+          text: {
+            fill: "#333333",
+            "font-size": 12,
+            "font-family":
+              "Lucida Grande, Lucida Sans Unicode, Arial, Helvetica, sans-serif",
+            "font-weight": 600
           }
         }
       },
       xaxis: {
+        timemarker: [
+          {
+            style: {
+              marker: {
+                fill: "#ebebf5",
+                stroke: "#666666",
+                "stroke-width": 1
+              },
+              "marker-notch": {
+                fill: "#ebebf5",
+                stroke: "#ebebf5"
+              },
+              "marker:hover": {
+                fill: "#b2b2d9",
+                stroke: "#333333",
+                "stroke-width": 1
+              },
+              "marker-notch:hover": {
+                fill: "#b2b2d9",
+                stroke: "#b2b2d9"
+              },
+              "marker-line": {
+                stroke: "#ebebf5"
+              },
+              "marker-line:hover": {
+                stroke: "#b2b2d9"
+              },
+              text: {
+                fill: "#333333",
+                "font-family":
+                  "Lucida Grande, Lucida Sans Unicode, Arial, Helvetica, sans-serif"
+              },
+              "text:hover": {
+                fill: "#333333",
+                "font-family":
+                  "Lucida Grande, Lucida Sans Unicode, Arial, Helvetica, sans-serif",
+                "font-weight": 600
+              }
+            }
+          }
+        ],
         style: {
           title: {
             "font-size": 12,
