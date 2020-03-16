@@ -1,9 +1,9 @@
 /**!
  * @license FusionCharts JavaScript Library
- * Copyright InfoSoft Global Pvt. Ltd.
+ * Copyright FusionCharts, Inc.
  * License Information at <http://www.fusioncharts.com/license>
  *
- * @author InfoSoft Global Pvt. Ltd.
+ * @author FusionCharts, Inc.
  * @meta package_map_pack
  * @id fusionmaps.SanctiSpiritus.1.04-24-2018 01:18:41
  */
