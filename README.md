@@ -2,7 +2,7 @@ FusionMaps is a companion package meant to be used in conjunction with [FusionCh
 
 This package contains definition files for all the maps. Map definition files are the path files required by FusionMaps to plot a map for a particular region. Each map has its own path file. _By default, FusionCharts package only includes definition files for two maps - the World map and the USA map._
 
-### What's New
+### What's New in FusionMaps 3.23.0
 
 #### Improvements
 
