@@ -1,8 +1,16 @@
 FusionMaps is a companion package meant to be used in conjunction with [FusionCharts](https://www.npmjs.com/package/fusioncharts) to render data-driven maps (over 2,000+ maps for different continents, countries, states & regions). This package contains choropleth maps that can render on both desktop & mobile, with extended functionality like city or location markers, annotations, events etc.
 
-This package contains definition files for all the maps. Map definition files are the path files required by FusionMaps to plot a map for a particular region. Each map has its own path file.
+This package contains definition files for all the maps. Map definition files are the path files required by FusionMaps to plot a map for a particular region. Each map has its own path file. _By default, FusionCharts package only includes definition files for two maps - the World map and the USA map._
 
-_By default, FusionCharts package only includes definition files for two maps - the World map and the USA map._
+### What's New in FusionMaps 3.23.0
+
+#### Improvements
+
+- The rendering issues of Japan's 16 provinces were resolved. These provinces include Yamagata, Tochigi, Saitama, Tokyo, Toyama, Yamanashi, Shizuoka, Shiga, Wakayama, Tottori, Shimane, Okayama, Yamaguchi, Tokushima, Saga, and Okinawa.
+- Fixed the issue where certain values skewed the Radial bar
+- Two additional provinces were incorporated into Costa Rica maps: Monteverde and Puerto Jimenez
+
+<br />
 
 - Official Website: [https://www.fusioncharts.com/](https://www.fusioncharts.com/)
 - FusionCharts NPM: [https://www.npmjs.com/package/fusioncharts](https://www.npmjs.com/package/fusioncharts)
@@ -10,10 +18,6 @@ _By default, FusionCharts package only includes definition files for two maps - 
 - Map Specification Sheets: [https://www.fusioncharts.com/dev/maps/spec-sheets/](https://www.fusioncharts.com/dev/maps/spec-sheets/)
 - Support: [https://www.fusioncharts.com/contact-support](https://www.fusioncharts.com/contact-support)
 - Issues: [https://github.com/fusioncharts/fusionmaps-dist](https://github.com/fusioncharts/fusionmaps-dist)
-
-### What's New
-
-- FusionCharts version 3.21.1 introduces new maps for all 24 Argentinian departments, all 26 Peruvian departments, and all 7 provinces from Costa Rica.
 
 ---
 
@@ -190,7 +194,7 @@ chart.render();
 
 ## Contact Support
 
-Fill [this form](https://www.fusioncharts.com/contact-support) or drop an email to [support@fusioncharts.com](mailto:support@fusioncharts.com).
+Fill [this form](https://www.fusioncharts.com/contact-support) or drop an email to [support@fusioncharts.com](mailto: <support@fusioncharts.com>)
 
 ## Folder Structure
 
